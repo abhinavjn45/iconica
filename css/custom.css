@@ -1,6 +1,6 @@
 /* ----------------------------------------------------------------------------------------
-* Author        : Awaiken
-* Template Name : Evenza - Event & Conference HTML Template
+* Author        : Abhinav Jain
+* Template Name : ICONICA 2027 - International Conference on Next-Gen Intelligent Computing and Applications
 * File          : CSS File
 * Version       : 1.0
 * ---------------------------------------------------------------------------------------- */
@@ -3293,13 +3293,47 @@ header.main-header .header-sticky.active{
 	border-top: 1px solid var(--dark-divider-color);
 	padding: 60px 0;
 	margin-top: 60px;
-	text-align: center;
 	z-index: 1;
+}
+
+.footer-copyright-text{
+	text-align: left;
 }
 
 .footer-copyright-text p{
 	color: var(--white-color);
 	margin-bottom: 0;
+}
+
+.footer-developer-credit{
+	text-align: right;
+}
+
+.footer-developer-credit p{
+	color: var(--white-color);
+	margin-bottom: 0;
+}
+
+.footer-developer-credit p a{
+	color: var(--accent-color);
+	text-decoration: none;
+	font-weight: 500;
+	transition: all 0.3s ease-in-out;
+}
+
+.footer-developer-credit p a:hover{
+	color: var(--white-color);
+	text-decoration: underline;
+}
+
+@media (max-width: 767px) {
+	.footer-copyright-text,
+	.footer-developer-credit{
+		text-align: center;
+	}
+	.footer-developer-credit{
+		margin-top: 10px;
+	}
 }
 
 /************************************/
